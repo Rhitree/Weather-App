@@ -31,6 +31,8 @@ strong {
 
 a {
     color: #58B4AE;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 footer {
@@ -39,7 +41,7 @@ footer {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 610px;
     margin: auto;
     padding: 50px;
     border-radius: 10px;
