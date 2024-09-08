@@ -1,0 +1,82 @@
+body {
+    font-family: roboto;
+    background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+form {
+    display: block;
+    margin: 20px auto;
+}
+
+main h1 {
+    font-size: 38px;
+    font-weight: 900;
+    margin: 0;
+    color: #58B4AE;
+}
+
+main p {
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+strong {
+    color: #58B4AE;
+}
+
+a {
+    color: #58B4AE;
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 50px;
+    border-radius: 10px;
+    background: #FFE3B0;
+    opacity: .8;
+}
+
+.enter-city {
+    background-color: white;
+    border: none;
+    color: #226B80;
+    font-size: 16px;
+    padding: 20px;
+    width: 75%;
+    border-radius: 6px;
+}
+
+.search-button {
+    margin-left: 5px;
+    font-size: 16px;
+    background-color: #35B0AB;
+    color: white;
+    border: none;
+    padding: 10px;
+    line-height: 1;
+    border-radius: 5px;
+}
+
+
+.current-temperature {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #58B4AE;
+}
+
+.current-weather {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
